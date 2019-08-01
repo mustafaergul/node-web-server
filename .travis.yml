@@ -6,3 +6,5 @@ deploy:
   provider: heroku
   api_key:
     secure: "776f3957-d073-40af-a80c-c56739c27431"
+  on:
+    all_branches: true
