@@ -2,3 +2,7 @@ language: node_js
 node_js: 
 - "lts/*"
 script: echo "npm test temporarily disabled"
+deploy:
+  provider: heroku
+  api_key:
+    secure: "776f3957-d073-40af-a80c-c56739c27431"
