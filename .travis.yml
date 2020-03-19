@@ -1,4 +1,4 @@
 language: node_js
 node_js: 
 - "lts/*"
-script: echo "PR sample"
+script: echo "asdasd"
