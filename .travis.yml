@@ -1,4 +1,26 @@
-language: node_js
-node_js: 
-- "lts/*"
-script: echo "asdasd"
+sudo: required
+language: r
+dist: bionic
+cache: packages
+
+matrix:
+  include:
+  - r: release
+    os: linux
+  - r: devel
+    os: linux
+  - r: release
+    os: osx
+
+r_packages:
+  - txtplot
+
+r_github_packages:
+  - jimhester/covr
+  - jimhester/lintr
+  - richelbilderbeek/nLTT
+  - ropensci/beautier
+  - ropensci/tracerer
+  - ropensci/beastier
+  - ropensci/mauricer
+  - ropensci/babette
