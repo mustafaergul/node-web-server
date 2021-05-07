@@ -1,2 +1,1 @@
 script: true
-after_script: echo hey
