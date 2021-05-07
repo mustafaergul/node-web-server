@@ -1,3 +1,2 @@
 script: true
-before_install: true
-sudo: required
+after_script: echo hey
